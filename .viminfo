@@ -1,0 +1,635 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 8.1.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# Viminfo version
+|1,4
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 마지막으로 바꾼 문자열:
+$
+
+# 명령 행 히스토리 (새것부터 오래된 것 순):
+:wq!
+|2,0,1622822012,,"wq!"
+:set ts=4
+|2,0,1622821933,,"set ts=4"
+:q!
+|2,0,1622821907,,"q!"
+:qa!
+|2,0,1622818553,,"qa!"
+:set ts =4
+|2,0,1622818023,,"set ts =4"
+:!q!
+|2,0,1622817591,,"!q!"
+:w!
+|2,0,1622780727,,"w!"
+:1
+|2,0,1622777597,,"1"
+:set nu
+|2,0,1622776145,,"set nu"
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+? @$
+|2,1,1622774908,,"@$"
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 행 히스토리 (새것부터 오래된 것 순):
+
+# 디버그 행 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+"0	LINE	0
+		echo "---------------------------2"
+|3,0,0,1,1,0,1622821520,"	echo \"---------------------------2\""
+"1	LINE	0
+	pid=`docker ps | grep $svc
+|3,0,1,1,1,0,1622821442,"pid=`docker ps | grep $svc"
+"2	LINE	0
+	echo [$cid]
+|3,0,2,1,1,0,1622821254,"echo [$cid]"
+"3	LINE	0
+	echo [$did]
+|3,0,3,1,1,0,1622821252,"echo [$did]"
+"4	LINE	0
+		did=`docker images sp_commo | grep sp_commo | awk '{print $3}'`
+|3,0,4,1,1,0,1622821056,"	did=`docker images sp_commo | grep sp_commo | awk '{print $3}'`"
+"5	LINE	0
+	docker rmi $did
+|3,0,5,1,1,0,1622821050,"docker rmi $did"
+"6	LINE	0
+	
+|3,0,6,1,1,0,1622820970,""
+"7	LINE	0
+	
+|3,0,7,1,1,0,1622820895,""
+"8	LINE	0
+	
+|3,0,8,1,1,0,1622818597,""
+"9	LINE	0
+	// }
+|3,0,9,1,1,0,1622818596,"// }"
+""-	CHAR	0
+	file
+|3,1,36,0,1,0,1622821953,"file"
+
+# 파일 마크:
+'0  51  17  ~/make/sp_commo.mak
+|4,48,51,17,1622822012,"~/make/sp_commo.mak"
+'1  46  3  ~/make/sp_commo.mak
+|4,49,46,3,1622821907,"~/make/sp_commo.mak"
+'2  46  3  ~/make/sp_commo.mak
+|4,50,46,3,1622821907,"~/make/sp_commo.mak"
+'3  18  10  ~/make/sp_commo.mak
+|4,51,18,10,1622821757,"~/make/sp_commo.mak"
+'4  18  10  ~/make/sp_commo.mak
+|4,52,18,10,1622821757,"~/make/sp_commo.mak"
+'5  18  10  ~/make/sp_commo.mak
+|4,53,18,10,1622821757,"~/make/sp_commo.mak"
+'6  18  10  ~/make/sp_commo.mak
+|4,54,18,10,1622821757,"~/make/sp_commo.mak"
+'7  18  15  ~/make/sp_commo.mak
+|4,55,18,15,1622821626,"~/make/sp_commo.mak"
+'8  18  15  ~/make/sp_commo.mak
+|4,56,18,15,1622821626,"~/make/sp_commo.mak"
+'9  18  15  ~/make/sp_commo.mak
+|4,57,18,15,1622821626,"~/make/sp_commo.mak"
+
+# 점프목록 (새것이 먼저):
+-'  51  17  ~/make/sp_commo.mak
+|4,39,51,17,1622822012,"~/make/sp_commo.mak"
+-'  46  3  ~/make/sp_commo.mak
+|4,39,46,3,1622821929,"~/make/sp_commo.mak"
+-'  46  3  ~/make/sp_commo.mak
+|4,39,46,3,1622821907,"~/make/sp_commo.mak"
+-'  18  10  ~/make/sp_commo.mak
+|4,39,18,10,1622821817,"~/make/sp_commo.mak"
+-'  18  10  ~/make/sp_commo.mak
+|4,39,18,10,1622821817,"~/make/sp_commo.mak"
+-'  18  10  ~/make/sp_commo.mak
+|4,39,18,10,1622821757,"~/make/sp_commo.mak"
+-'  18  15  ~/make/sp_commo.mak
+|4,39,18,15,1622821626,"~/make/sp_commo.mak"
+-'  14  7  ~/make/sp_commo.mak
+|4,39,14,7,1622821600,"~/make/sp_commo.mak"
+-'  14  7  ~/make/sp_commo.mak
+|4,39,14,7,1622821600,"~/make/sp_commo.mak"
+-'  14  7  ~/make/sp_commo.mak
+|4,39,14,7,1622821600,"~/make/sp_commo.mak"
+-'  14  7  ~/make/sp_commo.mak
+|4,39,14,7,1622821600,"~/make/sp_commo.mak"
+-'  14  7  ~/make/sp_commo.mak
+|4,39,14,7,1622821576,"~/make/sp_commo.mak"
+-'  36  0  ~/make/sp_commo.mak
+|4,39,36,0,1622821566,"~/make/sp_commo.mak"
+-'  36  0  ~/make/sp_commo.mak
+|4,39,36,0,1622821566,"~/make/sp_commo.mak"
+-'  36  0  ~/make/sp_commo.mak
+|4,39,36,0,1622821566,"~/make/sp_commo.mak"
+-'  36  0  ~/make/sp_commo.mak
+|4,39,36,0,1622821566,"~/make/sp_commo.mak"
+-'  36  0  ~/make/sp_commo.mak
+|4,39,36,0,1622821566,"~/make/sp_commo.mak"
+-'  36  0  ~/make/sp_commo.mak
+|4,39,36,0,1622821532,"~/make/sp_commo.mak"
+-'  22  0  ~/make/sp_commo.mak
+|4,39,22,0,1622821382,"~/make/sp_commo.mak"
+-'  22  0  ~/make/sp_commo.mak
+|4,39,22,0,1622821382,"~/make/sp_commo.mak"
+-'  22  0  ~/make/sp_commo.mak
+|4,39,22,0,1622821382,"~/make/sp_commo.mak"
+-'  22  0  ~/make/sp_commo.mak
+|4,39,22,0,1622821382,"~/make/sp_commo.mak"
+-'  22  0  ~/make/sp_commo.mak
+|4,39,22,0,1622821382,"~/make/sp_commo.mak"
+-'  22  0  ~/make/sp_commo.mak
+|4,39,22,0,1622821382,"~/make/sp_commo.mak"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  1  0  ~/make/sp_commo.make
+|4,39,1,0,1622821380,"~/make/sp_commo.make"
+-'  14  0  ~/make/sp_commo.mak
+|4,39,14,0,1622821257,"~/make/sp_commo.mak"
+-'  14  0  ~/make/sp_commo.mak
+|4,39,14,0,1622821257,"~/make/sp_commo.mak"
+-'  33  2  ~/make/sp_commo.mak
+|4,39,33,2,1622821202,"~/make/sp_commo.mak"
+-'  23  2  ~/make/sp_commo.mak
+|4,39,23,2,1622821202,"~/make/sp_commo.mak"
+-'  33  2  ~/make/sp_commo.mak
+|4,39,33,2,1622821202,"~/make/sp_commo.mak"
+-'  23  2  ~/make/sp_commo.mak
+|4,39,23,2,1622821202,"~/make/sp_commo.mak"
+-'  33  2  ~/make/sp_commo.mak
+|4,39,33,2,1622821202,"~/make/sp_commo.mak"
+-'  23  2  ~/make/sp_commo.mak
+|4,39,23,2,1622821202,"~/make/sp_commo.mak"
+-'  33  2  ~/make/sp_commo.mak
+|4,39,33,2,1622821202,"~/make/sp_commo.mak"
+-'  23  2  ~/make/sp_commo.mak
+|4,39,23,2,1622821202,"~/make/sp_commo.mak"
+-'  33  2  ~/make/sp_commo.mak
+|4,39,33,2,1622821202,"~/make/sp_commo.mak"
+-'  23  2  ~/make/sp_commo.mak
+|4,39,23,2,1622821202,"~/make/sp_commo.mak"
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/make/sp_commo.mak
+	*	1622822010	0
+	"	51	17
+	^	51	18
+	.	51	17
+	+	57	12
+	+	57	11
+	+	52	17
+	+	54	16
+	+	5	19
+	+	7	17
+	+	3	12
+	+	39	2
+	+	41	28
+	+	43	13
+	+	52	17
+	+	54	17
+	+	57	0
+	+	1	0
+	+	44	28
+	+	5	27
+	+	4	0
+	+	2	0
+	+	5	25
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	5	22
+	+	1	0
+	+	41	31
+	+	43	15
+	+	52	20
+	+	54	20
+	+	7	19
+	+	1	5
+	+	44	37
+	+	1	0
+	+	42	37
+	+	44	28
+	+	1	5
+	+	42	33
+	+	54	1
+	+	54	7
+	+	1	25
+	+	2	0
+	+	4	14
+	+	11	1
+	+	9	36
+	+	52	0
+	+	54	12
+	+	41	6
+	+	37	37
+	+	54	0
+	+	53	13
+	+	53	0
+	+	45	25
+	+	48	13
+	+	53	0
+	+	47	59
+	+	49	0
+	+	45	23
+	+	36	0
+	+	11	2
+	+	21	50
+	+	11	2
+	+	36	0
+	+	36	14
+	+	36	0
+	+	22	11
+	+	23	3
+	+	22	6
+	+	25	15
+	+	27	0
+	+	30	0
+	+	33	64
+	+	35	0
+	+	36	0
+	+	33	0
+	+	29	0
+	+	30	7
+	+	30	9
+	+	21	5
+	+	22	14
+	+	30	13
+	+	26	0
+	+	25	5
+	+	34	0
+	+	33	5
+	+	30	0
+	+	22	0
+	+	13	25
+	+	21	28
+	+	29	34
+	+	17	17
+	+	18	13
+	+	16	35
+	+	24	34
+	+	32	34
+	+	14	7
+	+	17	21
+	+	18	10
+	+	45	23
+	+	50	38
+	+	51	17
+
+> ~/make/sp_commo.make
+	*	1622821378	0
+	"	1	0
+
+> ~/src/sp_comrc.js
+	*	1622818627	0
+	"	14	0
+	.	15	53
+	+	7	58
+	+	12	0
+	+	15	53
+
+> ~/src/sp_commo.js
+	*	1622818552	0
+	"	7	8
+	^	7	9
+	.	7	8
+	+	1	29
+	+	19	3
+	+	20	0
+	+	11	15
+	+	2	14
+	+	18	50
+	+	11	0
+	+	2	24
+	+	11	0
+	+	2	25
+	+	4	0
+	+	11	0
+	+	8	1
+	+	7	8
+
+> ~/make/sp_commo.dockerfile
+	*	1622818346	0
+	"	7	5
+	^	6	1
+	.	6	0
+	+	3	28
+	+	7	15
+	+	9	0
+	+	1	0
+	+	4	12
+	+	7	22
+	+	6	0
+
+> ~/make/sp_commo/sp_commo.js
+	*	1622817591	0
+	"	1	0
+
+> ~/bin/cip
+	*	1622814379	0
+	"	1	7
+	^	1	61
+	.	1	24
+	+	1	24
+
+> ~/bin/dok_push_local_repository
+	*	1622796739	0
+	"	1	0
+
+> ~/bin/dok_pull_localrepository
+	*	1622796650	0
+	"	3	38
+	^	3	39
+	.	3	26
+	+	2	34
+	+	3	0
+	+	3	26
+
+> ~/bin/dok_make_private_repository
+	*	1622796070	0
+	"	1	69
+	^	1	70
+	.	1	26
+	+	1	26
+
+> ~/repo/httpd/dpull.sh
+	*	1622795681	0
+	"	2	18
+	^	2	19
+	.	2	18
+	+	1	24
+	+	2	0
+	+	2	18
+
+> ~/make/sp_fortu.mak
+	*	1622790852	0
+	"	20	7
+	^	16	1
+	.	16	0
+	+	19	4
+	+	17	0
+	+	19	0
+	+	17	2
+	+	16	0
+
+> ~/make/sp_fortu.dockerfile
+	*	1622790804	0
+	"	5	13
+	^	5	14
+	.	5	6
+	+	1	18
+	+	2	16
+	+	2	17
+	+	2	0
+	+	4	43
+	+	2	0
+	+	4	0
+	+	2	0
+	+	3	29
+	+	4	0
+	+	1	10
+	+	4	12
+	+	5	6
+
+> ~/src/sp_fortu.sh
+	*	1622790374	0
+	"	7	3
+	^	7	4
+	.	7	3
+	+	4	0
+	+	4	2
+	+	7	3
+
+> ~/make/sp_httpd.dockerfile
+	*	1622789735	0
+	"	8	20
+	^	8	43
+	.	8	20
+	+	4	51
+	+	4	21
+	+	5	0
+	+	4	23
+	+	5	30
+	+	6	46
+	+	8	20
+
+> ~/make/sp_httpd.mak
+	*	1622789712	0
+	"	16	0
+	.	14	0
+	+	14	0
+
+> ~/.profile
+	*	1622789627	0
+	"	29	8
+	^	29	9
+	.	29	8
+	+	29	8
+
+> ~/src/webserver/dockerfile
+	*	1622787934	0
+	"	7	0
+
+> ~/src/hellojs/dockerfile
+	*	1622785407	0
+	"	3	0
+	^	3	20
+	.	4	0
+	+	2	9
+	+	3	15
+	+	2	0
+	+	3	0
+	+	4	0
+
+> ~/src/hellojs/hello.js
+	*	1622785184	0
+	"	1	0
+
+> ~/bin/dokrmall
+	*	1622784945	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+
+> ~/bin/dokrm
+	*	1622784847	0
+	"	1	26
+	^	1	27
+	.	1	26
+	+	1	26
+
+> ~/make/sp_httpd/dockerfile
+	*	1622784145	0
+	"	8	0
+
+> ~/make/sp_commo/sp_commo.dockerfile
+	*	1622778969	0
+	"	1	0
+
+> ~/make/sp_commo.38649/dockerfile
+	*	1622778327	0
+	"	4	5
+	.	4	5
+	+	4	5
+
+> ~/make/sp_commo/dockerfile
+	*	1622776818	0
+	"	1	0
+
+> ~/make/hello.mak
+	*	1622775306	0
+	"	2	70
+	.	2	0
+	+	1	23
+	+	2	6
+	+	3	0
+	+	2	28
+	+	2	6
+	+	2	0
+
+> ~/make/hello/dockerfile
+	*	1622774637	0
+	"	7	0
+	^	7	0
+	.	6	0
+	+	6	120
+	+	1	13
+	+	3	32
+	+	6	26
+	+	3	0
+	+	6	0

@@ -1,0 +1,3 @@
+docker tag httpd:latest localhost:5000/httpd:latest
+docker images localhost:5000/httpd
+docker push localhost:5000/httpd:latest

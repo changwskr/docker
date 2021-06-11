@@ -52,7 +52,5 @@ else
 
     docker create --name $svc $svc:latest
     docker start $svc
-	echo "============================================================="
-	docker inspect $svc | grep 'IPAddress' | grep -v Second | tail -1
 fi
 

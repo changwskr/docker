@@ -13,7 +13,7 @@ fi
 pid=`docker ps | grep $svc | awk '{print $1}'`
 if [ "$pid" != "" ]
 then
-	echo "---------------------------1"
+	echo "//////   docker container stop $svc   //////"
 	echo docker stop $svc
 	docker stop $svc
 fi
@@ -21,7 +21,7 @@ fi
 cid=`docker ps -a | grep $svc | awk '{print $1}'`
 if [ "$cid" != "" ]
 then
-	echo "---------------------------2"
+	echo "//////    docker container rm $cid     //////"
 	echo docker rm $cid
 	docker rm $cid
 fi
@@ -29,7 +29,7 @@ fi
 did=`docker images $svc | grep $svc | awk '{print $3}'`
 if [ "$did" != "" ]
 then
-	echo "---------------------------3"
+	echo "//////    docker image rmi $did     //////"
 	echo docker rmi $did
 	docker rmi $did
 fi
@@ -45,9 +45,12 @@ then
 	echo "docker build fail"
 else
 	echo "============================================================="
-	docker images
+	echo "REPOSITORY                           TAG        IMAGE ID       CREATED                  SIZE "
+	docker images | grep $svc 
 	echo "============================================================="
 	docker create --name $svc $svc:latest
 	docker start $svc
+	echo "============================================================="
+	docker inspect $svc | grep 'IPAddress' | grep -v Second | tail -1
 fi
 

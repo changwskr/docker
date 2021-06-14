@@ -8,6 +8,8 @@ env_password = os.getenv("MONGO_PASSWORD","password")
 env_server = os.getenv("MONGO_SERVER","localhost")
 
 connstr = f"mongodb://{env_username}:{env_password}@{env_server}:27017"
+print('a-%s b-%s c-%s d-%s' % (env_username, env_password, env_server, connstr))
+
 client = MongoClient(connstr)
 db = client.demodb
 collect = db.data1
@@ -16,7 +18,7 @@ collect = db.data1
 def default():
     return "I'm Flask...!"
 
-@app.route("init")
+@app.route("/init")
 def initDB():
     doc = [
         {"name": "홍길동", "age": 27},
@@ -36,5 +38,5 @@ def listingDB():
 
     return f"collections: {collections_str}<br>documents: {documents_str}"
 
-
 if __name__ == "__main__":
+   app.run(host="0.0.0.0", port=5000, debug=True)

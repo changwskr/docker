@@ -30,11 +30,11 @@ def initDB():
 
 @app.route("/list")
 def listingDB():
-    collections = db.list_collection_name()
+    collections = db.list_collection_names()
     collections_str = json.dumps(collections)
 
-    documents = collect.find({"age", 27})
-    documents_str = json.dumps( [doc["name"] for doc in documetns], ensure_ascii = False)
+    documents = collect.find({"age": 27})
+    documents_str = json.dumps( [doc["name"] for doc in documents], ensure_ascii = False)
 
     return f"collections: {collections_str}<br>documents: {documents_str}"
 

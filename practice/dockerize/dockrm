@@ -1,0 +1,25 @@
+if [ $# != 1 ]
+then
+	echo "$0 container_name"
+	exit
+fi
+
+rtn=`docker container ls -a | grep $1 | awk '{print $1}'`
+
+if [ "$rtn" != "" ]
+then
+	echo "/////  docker rm -f $rtn    /////"
+	docker rm -f $rtn
+else
+	echo "$1 container already deleted" 
+fi
+
+rtn=`docker image ls -a | grep mongo_flask | awk '{print $3}'`
+if [ "$rtn" != "" ]
+then
+	echo "/////  docker rmi -f $rtn   /////"
+	docker rmi -f $rtn
+else
+	echo "$1 image already deleted" 
+fi
+
